@@ -264,12 +264,3 @@ const Login = ({isUserAuthenticated}) => {
 };
 
 export default Login;
-// client Id
-// 761837490223-b757gs566unabu6imne1m9cue7h0hqhf.apps.googleusercontent.com
-// client secret
-// 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
-
-
-
-
-
