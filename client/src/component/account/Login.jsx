@@ -245,7 +245,7 @@ const Login = ({isUserAuthenticated}) => {
                             <IconWrapper><PersonOutlineRoundedIcon /></IconWrapper>
                         </div>
                         <div>
-                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name="username" label="Enter username" InputLabelProps={{ shrink: !!signup.name }}/>
+                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name="username" label="Enter username" InputLabelProps={{ shrink: !!signup.username }}/>
                             <IconWrapper><PersonOutlineRoundedIcon /></IconWrapper>
                         </div>
                         <div>
