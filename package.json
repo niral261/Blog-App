@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "Blog-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,8 +9,16 @@
     "test": "echo \"No test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niral261/Blog-app.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niral261/Blog-app/issues"
+  },
+  "homepage": "https://github.com/niral261/Blog-app#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
