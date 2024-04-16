@@ -68,9 +68,6 @@ const Comments = ({ post }) => {
     }
 
     const addComment = async() => {
-        if(!account.isAuthenticated){
-            navigate('/login');
-        }
         let response = await API.newComment(comment);
         if(response.isSuccess){
             setComment(initialValue);
