@@ -9,8 +9,8 @@ const Container = styled(Box)`
     flex-direction: column;
     align-items: left;
     width: 20vw;
-    max-width: 300px; /* Adjust the max-width as needed */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    max-width: 300px;
+    overflow-x: hidden; 
 `;
 
 const StyledLink = styled(Link)`
@@ -45,16 +45,18 @@ const ButtonContainer = styled(Box)`
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-right: -10px; /* Add a negative margin to account for button spacing */
+    margin-right: -10px; 
 `;
 
 const StyledButton = styled(Button)`
     margin-top: 5px;
+    
     && {
         background-color: #878787;
         color: white;
         margin: 10px;
         border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
     }
 `;
 

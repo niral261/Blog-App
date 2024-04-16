@@ -30,6 +30,9 @@ const Container = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down('md')]: {
         margin: 0
     },
+    backgroundColor: '#f4f4f4', 
+    padding: '20px', 
+    borderRadius: '10px', 
 }));
 
 const Image = styled('img')({
@@ -112,7 +115,7 @@ const Update = () => {
                 </label>
                 <input type="file" id="fileInput" style={{display: 'none'}} onChange={(e) => setFile(e.target.files[0])}/>
                 <InputTextField  placeholder='Title' value={post.title}  onChange={(e) => handleChange(e)} name="title"/>
-                <Button variant="contained" onClick={() => updateBlogPost()} style={{color:"#000", backgroundColor:"#ffb21e"}}>Update</Button>
+                <Button variant="contained" onClick={() => updateBlogPost()} style={{color:"#000", backgroundColor:"#f4d160"}}>Update</Button>
             </StyledFormControl>
 
             <TextArea minRows={5} placeholder='Tell your story...' onChange={(e) => handleChange(e)} name="description" value={post.description}/>

@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 
 //components
 import Comment from './Comment';
-import { lightGreen } from '@mui/material/colors';
 
 const Container = styled(Box)`
     margin-top: 100px;
@@ -20,7 +19,7 @@ const Image = styled('img')({
 });
 
 const StyledTextArea = styled(TextareaAutosize)`
-    height: 100px !important;
+    height: 100px;
     width: 100%; 
     margin: 0 20px;
 `;

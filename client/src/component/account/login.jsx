@@ -16,7 +16,7 @@ const Component = styled(Box)`
     box-shadow: 5px 2px 5px 2px rgb(0 0 0 / 0.6);
     display: flex;
     background-color: #fff;
-    border: 380px solid #ffb21e;
+    // border: 380px solid #FFF455;
 `;
 
 const BlackBox = styled(Box)`

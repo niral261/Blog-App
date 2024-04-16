@@ -10,15 +10,18 @@ import { DataContext } from '../../context/DataProvider';
 import Comments from './comments/Comments';
 
 const Container = styled(Box)(({ theme }) => ({
-    margin: '50px 100px',
+    margin: '100px 100px',
     [theme.breakpoints.down('md')]: {
         margin: 0
     },
+    backgroundColor: '#f4f4f4', 
+    padding: '20px', 
+    borderRadius: '10px', 
 }));
 
 const Image = styled('img')({
     width: '100%',
-    height: '50vh',
+    height: '70vh',
     objectFit: 'cover'
 });
 
@@ -54,7 +57,6 @@ const Author = styled(Box)(({ theme }) => ({
 
 const Description = styled(Typography)`
     font-size: 16px;
-    text-align: justify;
 `;
 
 

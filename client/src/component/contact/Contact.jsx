@@ -1,5 +1,5 @@
 import { Box, styled, Typography, Link } from '@mui/material';
-import { GitHub, Instagram, Email } from '@mui/icons-material';
+import { Instagram, Email } from '@mui/icons-material';
 
 // Styled components
 const Banner = styled(Box)`
@@ -36,7 +36,7 @@ const Contact = () => {
                 <Typography variant="h5">
                     Reach out to me on 
                     <Instagram/>
-                    or send me an Email
+                     or send me an Email
                     <Link href="mailto:ajmeraniral@gmail.com" target="_blank" color="inherit">
                         <Email />
                     </Link>.

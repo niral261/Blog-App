@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 const Image = styled(Box)`
     width: 100%;
-    background-color: #ffb21e; 
+    background-color: #f4d160; 
     height: 65vh;
     display: flex;
     flex-direction: column;

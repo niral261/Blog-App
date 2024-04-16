@@ -1,9 +1,9 @@
 import React from 'react';
-import { AppBar, Toolbar, styled, Button, Typography } from '@mui/material';
+import { AppBar, Toolbar, styled, Button } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 
 const Component = styled(AppBar)`
-    background: #ffb21e;
+    background: #f4d160;
     color: #000;
     border-bottom: 2px solid #000;
 `;
