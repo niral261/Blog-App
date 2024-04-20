@@ -44,10 +44,10 @@ export const Footer = () => {
     <footer style={footerStyle}>
         <div style={containerStyle}>
             <div style={sectionStyle}>
-                <a href="/terms" style={{ textDecoration: 'none', color: '#fff' }}>
+                <a href="/" style={{ textDecoration: 'none', color: '#fff' }}>
                     <Typography style={typoStyle}>Terms</Typography>
                 </a>
-                <a href="/service" style={{ textDecoration: 'none', color: '#fff' }}>
+                <a href="/" style={{ textDecoration: 'none', color: '#fff' }}>
                     <Typography style={typoStyle}>Service</Typography>
                 </a>
                 <a href="/contact" style={{ textDecoration: 'none', color: '#fff' }}>
