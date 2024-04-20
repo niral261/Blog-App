@@ -16,14 +16,18 @@ const InputTextField = styled(InputBase)`
     font-size: 25px;
 `;
 const TextArea = styled(TextareaAutosize)`
-    width: 100%;
+    width: calc(100% - 24px); 
     margin-top: 50px;
     font-size: 18px;
     border: none; 
+    padding: 12px; 
+    box-sizing: border-box; 
+    resize: none;
     &:focus-visible {
         outline: none;
     }
 `;
+
 
 const Container = styled(Box)(({ theme }) => ({
     margin: '50px 100px',

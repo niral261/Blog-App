@@ -5,7 +5,7 @@ import  { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-do
 import { Header } from './component/header/Header';
 import { Footer } from './component/footer/Footer';
 
-import Login from './component/account/login';
+import Login from './component/account/Login';
 import DataProvider from './context/DataProvider';
 import Home from './component/home/Home';
 import CreatePost from './component/create/CreatePost';
