@@ -15,6 +15,7 @@ const InputTextField = styled(InputBase)`
     margin: 0 30px;
     font-size: 25px;
 `;
+
 const TextArea = styled(TextareaAutosize)`
     width: calc(100% - 24px); 
     margin-top: 50px;
