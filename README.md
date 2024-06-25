@@ -3,7 +3,8 @@ Blog Web App
 
 Welcome to the Blog Web App! This application allows users to create, read, update, and delete blog posts. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), it provides a robust and scalable solution for managing blog content.
 
-Table of Contents
+
+# Table of Contents
 
 •	Features
 
@@ -23,7 +24,8 @@ Table of Contents
 
 •	License
 
-Features
+
+# Features
 
 •	User Authentication: Sign up, log in, and log out functionalities.
 
@@ -39,77 +41,84 @@ Features
 
 •	Recommended topics based on user interests.
 
-Technologies Used
+
+# Technologies Used
 
 •	Frontend:
 
-o	React.js
-
-o	Material UI (for UI components)
-
-o	Axios (for HTTP requests)
+  o	React.js
+  
+  o	Material UI (for UI components)
+  
+  o	Axios (for HTTP requests)
 
 •	Backend:
 
-o	Node.js
-
-o	Express.js
-
-o	MongoDB (with Mongoose for object modeling)
+  o	Node.js
+  
+  o	Express.js
+  
+  o	MongoDB (with Mongoose for object modeling)
 
 •	Authentication:
 
-o	JSON Web Tokens (JWT)
+  o	JSON Web Tokens (JWT)
+  
+  o	BCrypt (for password hashing)
 
-o	BCrypt (for password hashing)
 
-Installation
+# Installation
 
 To run this project locally, follow these steps:
 
 1.	Clone the repository:
  
- git clone https://github.com/niral261/Blog-app/tree/master
- 
- cd Blog-app
+  git clone https://github.com/niral261/Blog-app/tree/master
+  
+  cd Blog-app
+  
 
 2.	Install dependencies for both frontend and backend:
  
- In the root directory (for backend)
- 
-  npm install
- N
- avigate to the client directory
- 
-  cd client
+  In the root directory (for backend)
   
-  npm install
+   npm install
+  
+  Navigate to the client directory
+  
+   cd client
+   
+   npm install
+   
  
 3.	Set up environment variables: Create a .env file in the root directory and add the following:
  
- DB_USERNAME
- 
- DB_PASSWORD
- 
- ACCESS_SECRET_KEY
- 
- REQUEST_SECRET_KEY
+  DB_USERNAME
+  
+  DB_PASSWORD
+  
+  ACCESS_SECRET_KEY
+  
+  REQUEST_SECRET_KEY
+
 
 4.	Run the application:
  
- Start the backend server
- 
- npm run server
- 
- Start the frontend development server
- 
- cd client
- 
- npm start
+  Start the backend server
+  
+  npm run server
+  
+  Start the frontend development server
+  
+  cd client
+  
+  npm start
+  
  
 The application should now be running on http://localhost:3000.
 
-Usage
+
+# Usage
 
 •	Home Page: Displays a list of blog posts and recommended topics.
 
@@ -123,7 +132,8 @@ Usage
 
 •	User Authentication: Sign up, log in, and log out functionalities.
 
-Project Structure
+
+# Project Structure
 
 Blog-app/
 
@@ -172,53 +182,57 @@ Blog-app/
 
 └── server.js                 # Entry point for the backend
 
-API Endpoints
+
+# API Endpoints
 
 Auth
 
-•	POST /api/auth/register - Register a new user
-
-•	POST /api/auth/login - Log in a user
-
-•	GET /api/auth/logout - Log out a user
+  •	POST /api/auth/register - Register a new user
+  
+  •	POST /api/auth/login - Log in a user
+  
+  •	GET /api/auth/logout - Log out a user
 
 Posts
 
-•	GET /api/posts - Get all posts
-
-•	POST /api/posts - Create a new post
-
-•	GET /api/posts/:id - Get a post by ID
-
-•	PUT /api/posts/:id - Update a post by ID
-
-•	DELETE /api/posts/:id - Delete a post by ID
+  •	GET /api/posts - Get all posts
+  
+  •	POST /api/posts - Create a new post
+  
+  •	GET /api/posts/:id - Get a post by ID
+  
+  •	PUT /api/posts/:id - Update a post by ID
+  
+  •	DELETE /api/posts/:id - Delete a post by ID
 
 Comments
 
-•	POST /api/posts/:id/comments - Add a comment to a post
+  •	POST /api/posts/:id/comments - Add a comment to a post
+  
+  •	DELETE /api/posts/:id/comments/:commentId - Delete a comment
 
-•	DELETE /api/posts/:id/comments/:commentId - Delete a comment
 
-Screenshots
+# Screenshots
 
-Home Page
+1. Home Page
 
  ![image](https://github.com/niral261/Blog-app/assets/102373223/882c831e-bd25-4e05-a197-d0a26ff26b7a)
 
-Post Page
+2. Post Page
  
  ![image](https://github.com/niral261/Blog-app/assets/102373223/f5c87e37-35e1-46f8-81f6-cead0a4254d8)
 
-Create Post
+3. Create Post
  
  ![image](https://github.com/niral261/Blog-app/assets/102373223/eda42388-a93c-43d3-9c6b-90abbf27f2d5)
 
-Contributing
+
+# Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-License
+
+# License
 
 This project is licensed under the MIT License.
 
