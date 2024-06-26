@@ -1,6 +1,6 @@
 {
-   "version": 1,
-   "name": "bloh-app",
+   "version": 2,
+   "name": "music-album",
    "builds": [
       { "src": "app.js", "use": "@vercel/node" }
    ],
